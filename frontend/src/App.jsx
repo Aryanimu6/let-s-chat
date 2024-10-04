@@ -50,7 +50,7 @@ function App() {
 			ReactGA.initialize("G-B36BMZJJ90");
 			// Send pageview with a custom path
 			ReactGA.send({ hitType: "pageview", page: "/landingpage", title: "Landing Page" });
-		}, [])
+		}, [])}
 
 	return (
 		<div className='flex max-w-6xl mx-auto'>
