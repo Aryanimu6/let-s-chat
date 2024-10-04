@@ -6,6 +6,8 @@ import SignUpPage from "./pages/auth/signup/SignUpPage";
 import NotificationPage from "./pages/notification/NotificationPage";
 import ProfilePage from "./pages/profile/ProfilePage";
 
+import ReactGA from 'react-ga4';
+
 import Sidebar from "./components/common/Sidebar";
 import RightPanel from "./components/common/RightPanel";
 
@@ -41,6 +43,14 @@ function App() {
 			</div>
 		);
 	}
+
+
+	function App() {
+		useEffect(() => {
+			ReactGA.initialize("G-B36BMZJJ90");
+			// Send pageview with a custom path
+			ReactGA.send({ hitType: "pageview", page: "/landingpage", title: "Landing Page" });
+		}, [])
 
 	return (
 		<div className='flex max-w-6xl mx-auto'>
