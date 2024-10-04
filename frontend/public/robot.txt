@@ -1,6 +1,12 @@
 User-agent: *
 Allow: /
 
+Disallow: /login
+Disallow: /signup
+Disallow: /notifications
+Disallow: /profile/
+
+
 # Host
 Host: https://let-s-chat-5.onrender.com
 

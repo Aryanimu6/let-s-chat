@@ -16,9 +16,6 @@
         <loc>https://let-s-chat-5.onrender.com/notifications</loc>
         <priority>0.7</priority>
     </url>
-    <!-- Dynamically Generated Profile URLs -->
-    <url>
-        <loc>https://let-s-chat-5.onrender.com/profile/USERNAME_PLACEHOLDER</loc>
-        <priority>0.7</priority>
-    </url>
+   
+    
 </urlset>
