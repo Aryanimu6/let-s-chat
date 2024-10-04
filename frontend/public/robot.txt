@@ -1,9 +1,8 @@
-# *
 User-agent: *
 Allow: /
- 
- # Host
- Host:https://let-s-chat-5.onrender.com
- 
+
+# Host
+Host: https://let-s-chat-5.onrender.com
+
 # Sitemaps
 Sitemap: https://let-s-chat-5.onrender.com/sitemap.xml
